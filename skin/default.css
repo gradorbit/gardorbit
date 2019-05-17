@@ -3,12 +3,12 @@
 #2 = 79CDC0
 */
 a {
-	color: #35A49C;
+	color: #0A3A61;
 }
 
 /* menu */
 .nav>li>a:hover {
-	color: #79CDC0;
+	color: #0A3A61;
 }
 
 .navbar .navbar-nav > .active > a {
@@ -25,7 +25,7 @@ a {
 }
 
 .testimonial span.author a {
-	color: #79CDC0;
+	color: black;
 }
 
 /* --- icon box hover --- */

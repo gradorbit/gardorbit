@@ -1,14 +1,14 @@
 .banner {
-    background-color: white;
     margin-top: 130px;
+    padding-top: 315px;
 }
-.grad-banner {
+/* .grad-banner {
     height: 400px;
     width: 100%;
-}
-.banner-text-wrap {
+} */
+/* .banner-text-wrap {
     margin-top: -30px;
-}
+} */
 .purpose-text {
     background: #146894;
     padding: 20px;
@@ -26,6 +26,9 @@
     float: right;
     font-weight: 700;
 }
+.mar-left16 {
+    margin-left: 16px;
+}
 .width85 {
     width: 85%;
 }
@@ -42,7 +45,7 @@
 }
 @media (max-width: 767px) {
     .banner {
-        padding-top: 0 !important;
+        margin-top: 150px;
     }
     .pad-cust-top40 {
         padding-top: 40px;

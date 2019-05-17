@@ -18,7 +18,7 @@
   jQuery('.navbar').localScroll({
     hash: true,
     offset: {
-      top: 0
+      top: -100
     },
     duration: 800,
     easing: 'easeInOutExpo'

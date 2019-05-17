@@ -473,7 +473,7 @@ section.section {
 }
 
 .featured {
-    /* background-image: url(../img/grad_main4.jpg); */
+    background-image: url(../img/grad_main4.jpg);
 }
 
 /*===========================
@@ -481,7 +481,7 @@ section.section {
 =========================== */
 .navbar {
     line-height: 100px;
-    height: 130px;
+    /* height: 130px; */
     background-color: #FDE88A;
     display: block;
     vertical-align: middle;
