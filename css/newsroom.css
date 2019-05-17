@@ -5,7 +5,9 @@ body {
 .pad {
     padding: 0 20px;
 }
-
+.mar-top80 {
+    margin-top: 100px;
+}
 section.news-room {
     padding: 200px 0 60px 0;
 }
@@ -23,7 +25,7 @@ section.news-room div.align-center img {
 
 .heading-text {
     line-height: 1;
-    padding: 10px 20px;
+    padding: 10px 40px;
 }
 
 .grad-banner {
@@ -35,7 +37,7 @@ section.news-room div.align-center img {
     background-color: lightgrey;
     width: 85%;
     margin: -50px auto 0 auto;
-    position: absolute;
+    position: sticky;
     right: 8%;
     text-align: center;
     padding: 20px;
@@ -79,16 +81,20 @@ hr {
     text-decoration: underline;
 }
 .align-text-pad {
-    padding: 20px 50px;
+    padding: 20px 60px;
+}
+.img-par {
+    text-align: center;
 }
 .user-img {
-    width: 100%;
+    width: 50%;
 }
 .overlay-text {
     background-color: cornflowerblue;
     color: white;
     padding: 20px;
     margin-top: -20px;
+    margin-left: 50%;
 }
 .overlay-text-span {
     text-align: right;
@@ -102,14 +108,14 @@ section.credit-section {
     padding: 16px;
 }
 @media (max-width: 767px) { 
-    .overlap-text {
-        margin-top: 180px;
-    }
     .content-section .text {
         flex-basis: 100%;
     }
     .content1, .content2 {
         padding: 0;
+    }
+    .user-img {
+        width: 100%;
     }
 }
 @media (max-width: 480px) { 

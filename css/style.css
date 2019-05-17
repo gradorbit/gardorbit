@@ -17,11 +17,11 @@
   General
   ========================================================================== */
 body {
-    color: #777;
+    color:black;
     background: #f7f7f7;
     font-size: 16px;
     line-height: 1.6em;
-    font-weight: 300;
+    font-weight: 400;
     text-shadow: none;
 }
 
@@ -471,8 +471,8 @@ section.section {
     background-image: url(../img/parallax/img2.jpg);
 }
 
-#testimonials {
-    background-image: url(../img/Confident\ grads\ banner.jpg);
+.featured {
+    /* background-image: url(../img/Confident\ grads\ banner.jpg); */
 }
 
 /*===========================
@@ -538,10 +538,12 @@ h1 a.navbar-brand {
     font-weight: 900;
     text-shadow: none;
 }
-
+h1 a.navbar-brand img {
+    width: 200px;
+}
 .navbar-brand {
     padding: 0;
-    display: table-cell;
+    display: inline-table;
     vertical-align: middle;
     line-height: 90px;
 }
@@ -567,8 +569,8 @@ h1 a.navbar-brand {
 =========================== */
 
 section.featured {
-    padding: 200px 0 60px;
-    background: #70B9B0;
+    /* padding: 200px 0 60px; */
+    /* background: #70B9B0; */
     color: #fdfdfd;
 }
 
@@ -579,6 +581,9 @@ section.featured h2.slogan {
 }
 
 /* Custom CSS */
+.logo-acronym {
+    color: #3B5998;
+}
 section.featured div.align-center img {
     width: 600px;
 }
@@ -587,10 +592,6 @@ section.featured div.align-center img {
     text-align: left;
     display: flex;
     justify-content: center;
-}
-
-#testimonials {
-    background-position-y: 530px !important;
 }
 
 .contact-information {
@@ -609,9 +610,6 @@ section.featured div.align-center img {
 
 .contact-text {
     padding-left: 33%;
-}
-section.pad-tb {
-    padding: 200px 0 180px 0;
 }
 /* inner heading */
 section.featured.inner {
@@ -765,7 +763,7 @@ section.featured.inner {
 About
 =========================== */
 
-.member-photo {
+/* .member-photo {
     box-sizing: border-box;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -781,13 +779,13 @@ About
 
 .team-detail h4 {
     font-weight: 700;
-}
+} */
 
 
 /*===========================
   Portfolio
 ============================ */
-nav#filter a {
+/* nav#filter a {
     background-color: #EEE;
     color: #555;
 }
@@ -796,11 +794,11 @@ nav#filter a:hover,
 nav#filter a.current {
     background-color: #44BCDD;
     color: #fff;
-}
+} */
 
 /* ------- */
 
-.isotopeWrapper article {
+/* .isotopeWrapper article {
     margin-bottom: 30px;
 }
 
@@ -810,7 +808,6 @@ nav#filter a.current {
 
 #portfolio article p {
     margin-bottom: 1.45em;
-    /*set next row on the baseline*/
 }
 
 nav#filter {
@@ -874,7 +871,6 @@ nav#filter a {
 }
 
 .portfolio-item .portfolio-desc a:hover {
-    /*text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);*/
     text-decoration: none;
 }
 
@@ -902,7 +898,7 @@ nav#filter a {
 .portfolio-item .portfolio-desc .folio-info p {
     color: #ffffff;
     font-size: 12px;
-}
+} */
 
 
 /*===========================
@@ -915,17 +911,12 @@ nav#filter a {
     margin-top: 50px;
 }
 
-.testimonial i {
+/* .testimonial i {
     color: #fff;
-}
-
-.testimonial span.author {
-    color: #fff;
-    font-weight: 700;
-}
+} */
 
 .testimonial h5 {
-    color: #fff;
+    /* color: #fff; */
     font-size: 18px;
     font-family: Georgia, sans-serif;
     line-height: 1.5em;
@@ -1047,11 +1038,11 @@ div.cform-response-output {
 }
 
 /* google map */
-#google-map {
+/* #google-map {
     position: relative;
     margin-top: 10px;
     height: 400px;
-}
+} */
 
 */
 
@@ -1074,6 +1065,7 @@ div.cform-response-output {
 section#footer {
     background: #242424;
     margin: 0;
+    color: white;
 }
 
 section#footer .copyright {

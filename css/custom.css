@@ -1,0 +1,62 @@
+.banner {
+    background-color: white;
+}
+.grad-banner {
+    height: 600px;
+    width: 100%;
+}
+.banner-text-wrap {
+    margin-top: -30px;
+}
+.purpose-text {
+    background: gray;
+    padding: 20px;
+    font-size: 20px;
+    line-break: 1.5;
+}
+.quote-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-basis {
+    width: 50%;
+}
+.testimonial span.author {
+    float: right;
+    font-weight: 700;
+}
+.width85 {
+    width: 85%;
+}
+.icon-linkedin {
+    color: #0077b5;
+    float: right;
+}
+.pad-testm {
+    padding-left: 10%;
+    padding-top: 2%;
+}
+#contactus {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media (max-width: 767px) {
+    .pad-cust-top40 {
+        padding-top: 40px;
+    }
+    .pad-top0 {
+        padding-top: 0 !important;
+    }
+    .pad-testm {
+        padding-left: 0;
+    }
+    .quote-section {
+        flex-direction: column;
+    }
+    .width85 {
+        width: auto;
+    }
+    .flex-basis {
+        width: auto;
+    }
+}
