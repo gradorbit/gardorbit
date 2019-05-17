@@ -5,8 +5,8 @@ body {
 .pad {
     padding: 0 20px;
 }
-.mar-top80 {
-    margin-top: 100px;
+.mar-top130 {
+    margin-top: 130px;
 }
 section.news-room {
     padding: 200px 0 60px 0;
@@ -34,7 +34,7 @@ section.news-room div.align-center img {
 }
 
 .section-firstjob .job__footer {
-    background-color: lightgrey;
+    background-color: #146894;
     width: 85%;
     margin: -50px auto 0 auto;
     position: sticky;
@@ -46,6 +46,7 @@ section.news-room div.align-center img {
 .section-firstjob .job__footer>h4 {
     line-height: 1.5;
     margin: 0;
+    color: #fff;
 }
 
 /* Content Section */
@@ -78,6 +79,7 @@ hr {
     height: 2px;
 }
 .sub-heading {
+    width: 100%;
     text-decoration: underline;
 }
 .align-text-pad {
@@ -87,10 +89,10 @@ hr {
     text-align: center;
 }
 .user-img {
-    width: 50%;
+    width: 25%;
 }
 .overlay-text {
-    background-color: cornflowerblue;
+    background-color: #146894;;
     color: white;
     padding: 20px;
     margin-top: -20px;
@@ -106,6 +108,9 @@ section.credit-section {
     display: flex;
     flex-direction: row-reverse;
     padding: 16px;
+}
+.icon-linkedin {
+    color: #0077b5;
 }
 @media (max-width: 767px) { 
     .content-section .text {
