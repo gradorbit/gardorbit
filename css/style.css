@@ -610,7 +610,9 @@ section.featured div.align-center img {
 .contact-secton1 {
     text-align: right;
 }
-
+.contact-secton2 {
+    margin: auto;
+}
 .contact-text {
     padding-left: 33%;
 }
@@ -832,6 +834,7 @@ Media queries
     .contact-secton1 {
         text-align: center;
     }
+
 
     .contact-text {
         padding-left: 0;
