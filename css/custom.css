@@ -1,11 +1,9 @@
 .banner {
     margin-top: 130px;
-    padding-top: 170px;
-    background-position: bottom;
-    background-repeat: no-repeat;    
-}
-.mar-bot130{
-    margin-bottom: 130px;
+    padding-top: 247px;
+    padding-bottom: 78px;
+    background-position: -475px -56px;
+    background-repeat: no-repeat;  
 }
 .purpose-text {
     background: #146894;
