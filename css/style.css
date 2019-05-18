@@ -482,7 +482,7 @@ section.section {
 .navbar {
     line-height: 100px;
     /* height: 130px; */
-    background-color: #FDE88A;
+    background-color: #FFC857;
     display: block;
     vertical-align: middle;
     text-align: center;
@@ -664,7 +664,7 @@ section.featured.inner {
  ================= */
 
 section#footer {
-    background: #FDE88A;
+    background: #FFC857;
     margin: 0;
     color: #0A3A61;
 }
@@ -788,11 +788,11 @@ Media queries
 @media (max-width: 767px) {
 
     .navbar.navbar-fixed-top {
-        background-color: #FDE88A;
+        background-color: #FFC857;
     }
 
     .navbar .navbar-collapse ul.nav {
-        background-color: #FDE88A;
+        background-color: #FFC857;
         width: 100%;
         float: none;
         margin: 0;
