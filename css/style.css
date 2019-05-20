@@ -622,6 +622,11 @@ section.featured div.align-center img {
 .icon-Twitter{
     color: #00ACEE;
 }
+@media (min-width: 1600px) {
+    .content-wrapper {
+        padding: 0 12%;
+    }
+}
 /* inner heading */
 section.featured.inner {
     background: #eee;

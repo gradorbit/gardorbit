@@ -39,6 +39,9 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+.carousel-inner > .item{
+    transition: 1.6s
+}
 @media (max-width: 767px) {
     .banner {
         margin-top: 150px;
