@@ -20,7 +20,7 @@ section.news-room div.align-center img {
     background-color: rgba(249, 249, 246, 0.5);
     position: absolute;
     text-align: center;
-    width: 100%;
+    width: 98%;
 }
 
 .heading-text {
@@ -123,7 +123,19 @@ section.credit-section {
     }
 }
 @media (max-width: 480px) { 
+    .img-mobile {
+        height: 312px;
+    }
+    .pad {
+        padding: 0;
+    }
+    .mar-top130 {
+        margin-top: 105px;
+    }
     .align-text-pad {
         padding: 20px;
+    }
+    .overlay-text {
+        margin-left: 0;
     }
 }

@@ -791,7 +791,6 @@ Media queries
 }
 
 @media (max-width: 767px) {
-
     .navbar.navbar-fixed-top {
         background-color: #FFC857;
     }
@@ -843,5 +842,16 @@ Media queries
 
     .contact-text {
         padding-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-mobile {
+        width: 210px !important;
+        padding-left: 10px;
+    }
+    .h1 a.navbar-brand img {
+        width: 210px;
+        padding-left: 10px;
     }
 }
