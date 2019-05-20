@@ -40,7 +40,7 @@ section.news-room div.align-center img {
     right: 8%;
     text-align: center;
     padding: 20px;
-    z-index: 9999;
+    z-index: 1;
 }
 
 .section-firstjob .job__footer>h4 {
