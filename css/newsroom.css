@@ -112,6 +112,9 @@ section.credit-section {
 .icon-linkedin {
     color: #0077b5;
 }
+.ul >li {
+    margin-bottom: 10px;
+}
 @media (max-width: 767px) { 
     .content-section .text {
         flex-basis: 100%;
@@ -124,6 +127,10 @@ section.credit-section {
     }
 }
 @media (max-width: 480px) { 
+    .section-firstjob .job__footer {
+        margin: 0;
+        width: auto;
+    }
     .img-mobile {
         height: 312px;
     }
