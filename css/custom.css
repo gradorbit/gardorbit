@@ -1,5 +1,4 @@
 .banner {
-    margin-top: 130px;
     padding-top: 247px;
     padding-bottom: 78px;
     background-position: -475px -56px;
@@ -43,9 +42,6 @@
     transition: 1.6s
 }
 @media (max-width: 767px) {
-    .banner {
-        margin-top: 150px;
-    }
     .pad-cust-top40 {
         padding-top: 40px;
     }
@@ -63,10 +59,5 @@
     }
     .flex-basis {
         width: auto;
-    }
-}
-@media (max-width: 480px) {
-    .banner {
-        margin-top: 103px;
     }
 }

@@ -5,9 +5,6 @@ body {
 .pad {
     padding: 0 20px;
 }
-.mar-top130 {
-    margin-top: 130px;
-}
 section.news-room {
     padding: 200px 0 60px 0;
 }
@@ -136,9 +133,6 @@ section.credit-section {
     }
     .pad {
         padding: 0;
-    }
-    .mar-top130 {
-        margin-top: 105px;
     }
     .align-text-pad {
         padding: 20px;
