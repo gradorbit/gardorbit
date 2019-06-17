@@ -584,6 +584,12 @@ section.featured h2.slogan {
 }
 
 /* Custom CSS */
+.font-12 {
+    font-size: 12px;
+}
+.mar-auto {
+    margin: auto;
+}
 .logo-acronym {
     color: #EF946A;
 }
@@ -651,6 +657,24 @@ section.featured.inner {
 .testimonial h5 {
     font-size: 16px;
     line-height: 1.5em;
+}
+/* GO PROFILES */
+
+.member-photo {
+	box-sizing:border-box;
+	-webkit-border-radius:50%;
+		-moz-border-radius:50%;
+			border-radius:50%;	
+	margin: 0 0 20px 0;
+}
+.member-photo img {
+	-webkit-border-radius:50%;
+		-moz-border-radius:50%;
+			border-radius:50%;	
+}
+
+.team-detail h4 {
+	font-weight: 700;
 }
 
 /*====================

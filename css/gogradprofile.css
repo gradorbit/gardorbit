@@ -1,6 +1,11 @@
-.margin-auto{
-    margin: auto;
-}
 .text-indent {
     text-indent: 40px
+}
+.mar-lft15 {
+    margin-left: 15%;
+}
+@media (max-width: 767px) {
+    .mar-lft15 {
+        margin-left: auto;
+    }   
 }

@@ -1,0 +1,12 @@
+.profile {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+.align-base {
+    align-items: baseline;
+}
+.profile__img{
+    height: 480px;
+    border-radius: 50px;
+}
