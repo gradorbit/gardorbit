@@ -488,7 +488,6 @@ section.section {
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
-    position: sticky;
 }
 
 .navbar .navbar-collapse {
@@ -628,6 +627,9 @@ section.featured div.align-center img {
 }
 .icon-Twitter{
     color: #00ACEE;
+}
+.content-wrapper {
+    margin-top: 130px;
 }
 @media (min-width: 1600px) {
     .content-wrapper {
