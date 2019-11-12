@@ -237,6 +237,9 @@ a:hover {
 }
 
 /* ---- padding ---- */
+.pad-50 {
+    padding: 50px;
+}
 /* top */
 .pad-top0 {
     padding-top: 0;
@@ -561,7 +564,10 @@ h1 a.navbar-brand img {
     margin: 0;
     width: 80px;
 }
+.ps-sticky-top {
+    position: sticky;
 
+}
 /* .navbar-collapse.in {
     margin-top: -5px !important;
 } */
@@ -629,7 +635,7 @@ section.featured div.align-center img {
     color: #00ACEE;
 }
 .content-wrapper {
-    margin-top: 130px;
+    margin-top: 6px;
 }
 @media (min-width: 1600px) {
     .content-wrapper {
